@@ -1,0 +1,31 @@
+{
+    "name": "vue3_test",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview",
+        "storybook": "start-storybook -p 6006 -s ./public,./assets",
+        "build-storybook": "build-storybook"
+    },
+    "dependencies": {
+        "vue": "^3.2.16",
+        "vue-router": "^4.0.12"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "@storybook/addon-actions": "^6.4.0-rc.1",
+        "@storybook/addon-essentials": "^6.4.0-rc.1",
+        "@storybook/addon-links": "^6.4.0-rc.1",
+        "@storybook/addon-postcss": "^2.0.0",
+        "@storybook/vue3": "^6.4.0-rc.1",
+        "@vitejs/plugin-vue": "^1.9.3",
+        "autoprefixer": "^10.4.0",
+        "babel-loader": "^8.2.3",
+        "postcss": "^8.3.11",
+        "storybook-builder-vite": "^0.1.6",
+        "tailwindcss": "^2.2.19",
+        "vite": "^2.6.4",
+        "vue-loader": "^16.8.3"
+    }
+}
