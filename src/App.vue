@@ -19,27 +19,28 @@ import Travel from "./components/Travel.vue";
       <img
         alt="Vue logo"
         src="./assets/20211102_logo-02.png"
-        style="width: 160px; line-height: 100px"
+        class="w-40"
+        style="line-height: 100px"
       />
     </div>
     <div
-      class="grid grid-cols-4 gap-1 font-sans "
-      style="margin: auto 0; color: #808080 "
+      class="grid grid-cols-4 gap-11 font-sans text-center"
+      style="margin: auto 0; color: #808080"
     >
       <div class="block font-normal">
-        <p class="">找景點</p>
+        <p class="" style="letter-spacing: 5px">找景點</p>
         <p class="text-xs">ATTRACTION</p>
       </div>
       <div class="font-normal">
-        <p class="">找美食</p>
+        <p class="" style="letter-spacing: 5px">找美食</p>
         <p class="text-xs">DELICACY</p>
       </div>
       <div class="font-normal">
-        <p class="">找活動</p>
+        <p class="" style="letter-spacing: 5px">找活動</p>
         <p class="text-xs">ACTIVITY</p>
       </div>
       <div class="font-normal">
-        <p class="">探索更多</p>
+        <p class="" style="letter-spacing: 5px">探索更多</p>
         <p class="text-xs">MORE</p>
       </div>
     </div>
@@ -47,7 +48,7 @@ import Travel from "./components/Travel.vue";
       <img
         alt="愛心icon"
         src="./assets/icon/like_default.png"
-        class="text-xs"
+        class="text-xs hover_like"
       />
       <img alt="問號icon" src="./assets/icon/faq_default.png" class="text-xs" />
     </div>
@@ -58,16 +59,18 @@ import Travel from "./components/Travel.vue";
   </div>
   <footer class="flex justify-between py-5 bg-bgGray">
     <div class="flex">
-      <p class="text-sm" style="color: #737373;margin: 3px;">Follow us</p>
-      <img src="./assets/icon/fb_default.png" alt="fb-icon">
-      <img src="./assets/icon/instagram_default.png" alt="ig-icon">
-      <img src="./assets/icon/youtube_default.png" alt="yt-icon">
+      <p class="text-sm" style="color: #737373; margin: 3px">Follow us</p>
+      <img src="./assets/icon/fb_default.png" alt="fb-icon" />
+      <img src="./assets/icon/instagram_default.png" alt="ig-icon" />
+      <img src="./assets/icon/youtube_default.png" alt="yt-icon" />
     </div>
-    <p class="text-xs text-lightGray" style="margin:auto">Copyright © 2021 TRAVEL. All rights reserved.</p>
+    <p class="text-xs text-lightGray" style="margin: auto">
+      Copyright © 2021 TRAVEL. All rights reserved.
+    </p>
     <div class="flex">
-      <img src="./assets/icon/ch.png" alt="CH-icon">
-      <img src="./assets/icon/en.png" alt="EN-icon">
-      <img src="./assets/icon/ja.png" alt="JA-icon">
+      <img src="./assets/icon/ch.png" alt="CH-icon" />
+      <img src="./assets/icon/en.png" alt="EN-icon" />
+      <img src="./assets/icon/ja.png" alt="JA-icon" />
     </div>
   </footer>
 </template>
@@ -79,8 +82,12 @@ import Travel from "./components/Travel.vue";
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50; */
-  padding: 0 100px;
+  padding: 0 180px;
   font-family: "Shippori Antique B1", sans-serif;
   /* background-color: #FAFAFA; */
+}
+
+.hover_like img:hover {
+  background: url("./assets/icon/like_hover.png");
 }
 </style>
