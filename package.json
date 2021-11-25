@@ -9,6 +9,7 @@
         "build-storybook": "build-storybook"
     },
     "dependencies": {
+        "pinia": "^2.0.4",
         "vue": "^3.2.16",
         "vue-router": "^4.0.12"
     },

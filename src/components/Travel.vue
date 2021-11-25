@@ -124,7 +124,7 @@ import { ref } from "vue";
             <input type="text" value="台南" class="border-gray-500 border border-solid
             rounded pl-20 top-4 right-5" style="width:512px;height:58px;"/>
             
-            <img src="../assets/icon/search_default.png" alt="搜尋-icon" class="absolute top-4 left-8"/>
+            <img src="@/assets/icon/search_default.png" alt="搜尋-icon" class="absolute top-4 left-8"/>
             <button 
             class="text-green
                   border  
@@ -145,7 +145,7 @@ import { ref } from "vue";
           <div class="grid grid-row-3 gap-1 border border-solid rounded-3xl w-40 h-20 py-2 px-4">
             <div class="flex justify-between">
               <p class="hover:text-green">熱門優先</p>
-              <img src="../assets/icon/direction_bottom.png" alt="向下箭頭-icon" class="w-5 h-5" style="margin:auto 0">
+              <img src="@/assets/icon/direction_bottom.png" alt="向下箭頭-icon" class="w-5 h-5" style="margin:auto 0">
             </div>
             <hr class="text-lightGray">
             <div>
@@ -156,38 +156,38 @@ import { ref } from "vue";
       </div>
       <div class="w-full grid  grid-flow-row grid-cols-3 gap-4 mt-4">
         <div>
-          <img src="../assets/participate_01.jpeg" alt="圖片" class="bg-auto rounded-t-lg ">
+          <img src="@/assets/participate_01.jpeg" alt="圖片" class="bg-auto rounded-t-lg ">
           <div class="px-4 border border-solid border-lightGray rounded-b-lg" >
             <p style="margin:11px 0 5.5px 0" class="truncate">將軍觀光漁港</p>
             <div class="flex text-center" style="margin:5.5px 0 18.5px 0">
-              <img src="../assets/icon/position.png" alt="定位-icon" class="h-4" style="margin:auto 0">
+              <img src="@/assets/icon/position.png" alt="定位-icon" class="h-4" style="margin:auto 0">
               &ensp;<span class="text-sm" style="margin:auto 0">台南市</span>&ensp;
               <span class="text-sm" style="margin:auto 0">將軍區</span>
-              <img src="../assets/icon/like_default.png" alt="愛心-icon" class="h-5" style="margin:auto 0 auto auto;">
+              <img src="@/assets/icon/like_default.png" alt="愛心-icon" class="h-5" style="margin:auto 0 auto auto;">
             </div>
           </div>
         </div>
         <div>
-          <img src="../assets/participate_01.jpeg" alt="圖片" class="bg-auto rounded-t-lg ">
+          <img src="@/assets/participate_01.jpeg" alt="圖片" class="bg-auto rounded-t-lg ">
           <div class="px-4 border border-solid border-lightGray rounded-b-lg" >
             <p style="margin:11px 0 5.5px 0" class="truncate">將軍觀光漁港</p>
             <div class="flex text-center" style="margin:5.5px 0 18.5px 0">
-              <img src="../assets/icon/position.png" alt="定位-icon" class="h-4" style="margin:auto 0">
+              <img src="@/assets/icon/position.png" alt="定位-icon" class="h-4" style="margin:auto 0">
               &ensp;<span class="text-sm" style="margin:auto 0">台南市</span>&ensp;
               <span class="text-sm" style="margin:auto 0">將軍區</span>
-              <img src="../assets/icon/like_default.png" alt="愛心-icon" class="h-5" style="margin:auto 0 auto auto;">
+              <img src="@/assets/icon/like_default.png" alt="愛心-icon" class="h-5" style="margin:auto 0 auto auto;">
             </div>
           </div>
         </div>
         <div>
-          <img src="../assets/participate_01.jpeg" alt="圖片" class="bg-auto rounded-t-lg ">
+          <img src="@/assets/participate_01.jpeg" alt="圖片" class="bg-auto rounded-t-lg ">
           <div class="px-4 border border-solid border-lightGray rounded-b-lg" >
             <p style="margin:11px 0 5.5px 0" class="truncate">將軍觀光漁港</p>
             <div class="flex text-center" style="margin:5.5px 0 18.5px 0">
-              <img src="../assets/icon/position.png" alt="定位-icon" class="h-4" style="margin:auto 0">
+              <img src="@/assets/icon/position.png" alt="定位-icon" class="h-4" style="margin:auto 0">
               &ensp;<span class="text-sm" style="margin:auto 0">台南市</span>&ensp;
               <span class="text-sm" style="margin:auto 0">將軍區</span>
-              <img src="../assets/icon/like_default.png" alt="愛心-icon" class="h-5" style="margin:auto 0 auto auto;">
+              <img src="@/assets/icon/like_default.png" alt="愛心-icon" class="h-5" style="margin:auto 0 auto auto;">
             </div>
           </div>
         </div>
