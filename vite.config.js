@@ -9,11 +9,12 @@ export default defineConfig({
         alias: {
             '@': path.resolve(__dirname, './src'),
         },
-    }
+    },
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/The_F2E_3RD_2021_Taiwan_tourist_attractions/'
+    : '/'
 })
 
-module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-      ? '/The_F2E_3RD_2021_Taiwan_tourist_attractions/'
-      : '/'
-  }
+// module.exports = {
+
+//   }
