@@ -116,7 +116,7 @@
         <p class="font-bold text-lg mb-4">服務設施</p>
         <p class="text-sm">停車場 / 公廁 / 淋浴設備 / 販售部</p>
       </div>
-      <div class="">
+      <div class="" style="max-width: 700px;">
         <p class="font-bold text-lg mb-4">交通方式</p>
         <p class="text-sm">
           {{
