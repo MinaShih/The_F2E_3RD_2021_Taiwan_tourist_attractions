@@ -14,6 +14,6 @@ export default defineConfig({
 
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-      ? '/eric-project/'
+      ? '/The_F2E_3RD_2021_Taiwan_tourist_attractions/'
       : '/'
   }
