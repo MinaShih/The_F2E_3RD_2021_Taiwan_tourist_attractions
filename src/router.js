@@ -19,7 +19,6 @@ const routes = [{
         component: Product,
         name: 'travel-product-id'
     }
-    // { path: "/product", component: Product },
 ];
 
 // 3. Create the router instance and pass the `routes` option

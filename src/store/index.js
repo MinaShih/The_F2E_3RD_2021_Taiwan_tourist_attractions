@@ -17,7 +17,7 @@ export const useStore = defineStore("main", {
     actions: {
         async fetchTravelInfo() {
             return await fetch(
-                    "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot?$top=10$filter=Picture/PictureUrl1%20ne%20null&$format=JSON"
+                    "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot?$top=10&$filter=Picture/PictureUrl1%20ne%20null&$format=JSON"
                 )
                 .then((response) => response.json())
                 .then((json) => {

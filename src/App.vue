@@ -66,9 +66,9 @@
       Copyright © 2021 TRAVEL. All rights reserved.
     </p>
     <div class="flex">
-      <img src="@/assets/icon/CH.png" alt="CH-icon" />
-      <img src="@/assets/icon/EN.png" alt="EN-icon" />
-      <img src="@/assets/icon/JA.png" alt="JA-icon" />
+      <img src="@/assets/icon/ch.png" alt="CH-icon" />
+      <img src="@/assets/icon/en.png" alt="EN-icon" />
+      <img src="@/assets/icon/ja.png" alt="JA-icon" />
     </div>
   </footer>
 </template>

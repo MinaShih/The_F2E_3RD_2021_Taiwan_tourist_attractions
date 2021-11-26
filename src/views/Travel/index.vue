@@ -167,20 +167,33 @@
           </div>
         </div>
       </div>
-      <div class="w-full grid grid-flow-row grid-cols-3 gap-4 mt-4" v-if="api">
-        <router-link
+      <div v-if="api" class="grid grid-flow-row grid-cols-3 gap-4 mt-4">
+        <div
           v-for="item in api.list"
           :key="item.ID"
-          :to="{ name: 'travel-product-id', params: { id: item.ID } }"
+          class="card-size grid grid-rows-3"
         >
-          <div class="pic">
-            <img
-              :src="item.Picture.PictureUrl1"
-              alt="圖片"
-              class="bg-auto rounded-t-lg pic-size"
-            />
-          </div>
-          <div class="px-4 border border-solid border-lightGray rounded-b-lg">
+          <router-link
+            :to="{ name: 'travel-product-id', params: { id: item.ID } }"
+            class="row-span-2"
+          >
+            <div class="pic">
+              <img
+                :src="item.Picture.PictureUrl1"
+                alt="圖片"
+                class="bg-auto rounded-t-lg pic-size"
+              />
+            </div>
+          </router-link>
+
+          <div
+            class="
+              px-4
+              border border-solid border-lightGray
+              rounded-b-lg
+              row-span-1
+            "
+          >
             <p style="margin: 11px 0 5.5px 0" class="truncate">
               {{ item.Name }}
             </p>
@@ -191,10 +204,10 @@
                 style="margin: auto 0"
               />
               &ensp;<span class="text-sm" style="margin: auto 0">{{
-                item.City
+                item.City ? item.City : "暫無相關資訊"
               }}</span
               >&ensp;
-              <!-- <span class="text-sm" style="margin: auto 0">將軍區</span> -->
+
               <img
                 src="@/assets/icon/like_default.png"
                 alt="愛心-icon"
@@ -202,7 +215,7 @@
               />
             </div>
           </div>
-        </router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -259,10 +272,14 @@ export default {
 </script>
 
 <style>
+.card-size {
+}
+
 .pic {
-  width: 280px;
-  height: 168px;
-  overflow: hidden;
+  /* width: 280px;
+  height: 300px;
+   */
+   overflow: hidden;
 }
 
 .pic-size {
