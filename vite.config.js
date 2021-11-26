@@ -11,7 +11,8 @@ export default defineConfig({
         },
     },
 
-    base: '/The_F2E_3RD_2021_Taiwan_tourist_attractions/'
+    base: '/The_F2E_3RD_2021_Taiwan_tourist_attractions/docs',
+
     
     // buildDir: process.env.NODE_ENV === 'production'
     // ? '/The_F2E_3RD_2021_Taiwan_tourist_attractions/'
