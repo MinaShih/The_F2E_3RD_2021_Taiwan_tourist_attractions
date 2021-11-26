@@ -5,6 +5,7 @@
         "dev": "vite",
         "build": "vite build",
         "serve": "vite preview",
+        "preview": "vite preview --port 8080",
         "storybook": "start-storybook -p 6006 -s ./public,./assets",
         "build-storybook": "build-storybook"
     },
